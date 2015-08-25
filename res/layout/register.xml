@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/bg">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg"
+    android:orientation="vertical" >
+    
+     <TextView
+       android:id="@+id/Register_txtview_name"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/name"
+       android:textSize="20sp"
+       android:textColor="@color/titlebar"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp"
+       android:clickable="true" />
+     <EditText
+        android:id="@+id/Register_Edittxtname"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/styletext"
+        android:textSize="14sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/style_editbox"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="@string/name"
+        android:inputType="textPersonName">
+        <requestFocus />
+    </EditText>
+    
+  
+     
+     <TextView
+       android:id="@+id/Register_txtview_pnone"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/phone"
+       android:textSize="20sp"
+       android:textColor="@color/titlebar"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp"
+       android:clickable="true" />
+    
+    <EditText
+        android:id="@+id/Register_Edittxtphone"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/styletext"
+        android:textSize="14sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/style_editbox"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="@string/phone"
+        android:inputType="phone">
+        
+    </EditText>
+
+    <TextView
+       android:id="@+id/Register_txtview_email"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/email"
+       android:textSize="20sp"
+       android:textColor="@color/titlebar"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp"
+       android:clickable="true" />
+     <EditText
+        android:id="@+id/Register_Edittxtemail"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/styletext"
+        android:textSize="14sp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/style_editbox"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress">
+        
+    </EditText>
+       
+    <TextView
+       android:id="@+id/Register_txtview_password"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/pass"
+       android:textSize="20sp"
+       android:textColor="@color/titlebar"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp"
+       android:clickable="true" />
+    
+    <EditText
+        android:id="@+id/Register_Edittxtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="14sp"
+        android:textColor="@color/styletext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/style_editbox"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="@string/pass"
+        android:inputType="textPassword" >
+        
+    </EditText>
+    
+        <TextView
+       android:id="@+id/Register_txtview_confirmpassword"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/confirmpass"
+       android:textSize="20sp"
+       android:textColor="@color/titlebar"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="12dp"
+       android:layout_marginRight="12dp"
+       android:clickable="true" />
+    <EditText
+        android:id="@+id/Register_Edittxtconfirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textSize="14sp"
+        android:textColor="@color/styletext"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/style_editbox"
+        android:ems="10"
+        android:padding="10dp"
+        android:hint="@string/pass"
+        android:inputType="textPassword" >
+        
+    </EditText>
+	
+	    	<Button
+	    	    android:id="@+id/btn_register"
+	    	    android:layout_width="100dp"
+	    	    android:layout_height="wrap_content"
+	    	    android:layout_marginTop="10dp"
+	        	android:layout_gravity="center_horizontal"
+	    	    android:background="@drawable/round_button"
+	    	    android:text="@string/register"
+	    	    android:textColor="#fff" />
+	   
+
+</LinearLayout>
+</ScrollView>

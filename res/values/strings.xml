@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CineTV Box</string>
+    
+    <string name="action_settings">Settings</string>
+     <color name="bg">#ececec</color>
+    <color name="titlebar">#3395de</color>
+    <color name="text">#e2e9ef</color>
+     <color name="green">#38c671</color>
+     <color name="styletext">#444</color>
+      <color name="crimson">#990000</color>
+    
+    <string-array name="menus">
+        <item >Profile</item>
+        <item >Movies</item>
+        <item >TV Series</item>
+        <item >Settings</item>       
+    </string-array>
+    
+    
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+    <string name="facebook">Login with facebook</string>
+    <string name="Login">Log In</string>
+     <string name="google">Login with Google+</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="youremail">Your Email Address</string>
+    <string name="pass">Password</string>
+     <string name="confirmpass">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="or">- OR -</string>
+    <string name="home">Home</string> 
+    <string name="Rating">Rating: </string>
+    <string name="Ratingcount">Rating 0.0 </string>
+    <string name="ratetitle">Rate It Now</string>
+    <string name="submit">Submit</string>
+    <string name="more">More</string>
+    <string name="review">Review</string>
+    <string name="ItemIcon">Item Icon</string> 
+	<string name="imgmovie">imgmovie</string>
+	 <string name="movieName">Movie Title</string>
+    <string name="currentRating">Current Rating: </string>
+    <string name="currentRate">4.5</string>
+    <string name="yourrate">You rated this movie: </string>
+    <string name="rating">Rate it now!</string>
+    <string name="description">Movie Synopsis</string>
+    <string name="description_content">Movie description here in brief</string>
+    <string name="user_review">User Reviews</string>
+    <string name="genere">Genre: </string>
+    <string name="genere_name">Sci-fi</string>
+    <string name="upcoming">Upcoming Movies</string>
+     <string name="previous">Previous Release</string>
+      <string name="nowshowing">Now Showing</string>
+      <string name="menu">menu</string>
+      <string name="language">Language :</string>
+      <string name="nepali">Nepali</string>
+       <string name="releasedate">Release Date :</string>
+        <string name="date">2014</string>
+       <string name="thumbsup">Give Thumbs Up!</string>
+</resources>
